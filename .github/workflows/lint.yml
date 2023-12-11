@@ -5,6 +5,7 @@ on:
     paths:
       - "website/docs/**.md"
       - "website/docs/**.mdx"
+  workflow_dispatch:
 
 jobs:
   run_vale:
