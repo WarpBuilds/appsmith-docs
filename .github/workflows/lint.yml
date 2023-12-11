@@ -9,7 +9,7 @@ on:
 
 jobs:
   run_vale:
-    runs-on: warpdev-ubuntu-latest-arm64-2x
+    runs-on: warp-ubuntu-latest-x64-4x
          
     steps:
       - name: Checkout
